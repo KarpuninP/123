@@ -1,0 +1,21 @@
+[2023-06-02] [00:06:15] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[2023-06-02] [00:06:18] [Server thread/INFO]: Loading properties
+[2023-06-02] [00:06:18] [Server thread/INFO]: Default game type: EDU
+[2023-06-02] [00:06:18] [Server thread/INFO]: Generating keypair
+[2023-06-02] [00:06:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[2023-06-02] [00:06:18] [Server thread/INFO]: Preparing level "../worlds/tmpworld"
+[2023-06-02] [00:06:19] [Server thread/INFO]: Preparing start region for level 0
+[2023-06-02] [00:06:20] [Server thread/INFO]: Preparing spawn area: 6%
+[2023-06-02] [00:06:21] [Server thread/INFO]: Preparing spawn area: 14%
+[2023-06-02] [00:06:22] [Server thread/INFO]: Preparing spawn area: 23%
+[2023-06-02] [00:06:23] [Server thread/INFO]: Preparing spawn area: 36%
+[2023-06-02] [00:06:24] [Server thread/INFO]: Preparing spawn area: 49%
+[2023-06-02] [00:06:25] [Server thread/INFO]: Preparing spawn area: 64%
+[2023-06-02] [00:06:26] [Server thread/INFO]: Preparing spawn area: 84%
+[2023-06-02] [00:06:27] [Server thread/INFO]: Forge Framework has been loaded.
+[2023-06-02] [00:06:27] [Server thread/INFO]: Forge Modloader has been loaded.
+[2023-06-02] [00:06:27] [Server thread/INFO]: Loaded Forge Mod: MinecraftEdu
+[2023-06-02] [00:06:27] [Server thread/INFO]: Loaded Forge Mod: ComputerCraft
+[2023-06-02] [00:06:27] [Server thread/INFO]: Loaded Forge Mod: ComputerCraftEdu
+[2023-06-02] [00:06:27] [Server thread/INFO]: Done (8,391s)! For help, type "help" or "?"
+[2023-06-02] [00:33:13] [Server Shutdown Thread/INFO]: Stopping server

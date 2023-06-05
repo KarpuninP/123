@@ -1,0 +1,446 @@
+[00:06:09] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:06:09] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.0 for Minecraft 1.7.10 loading
+[00:06:09] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_362, running on Linux:amd64:5.19.0-43-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[00:06:09] [main/DEBUG] [FML/]: Java classpath at launch is minecraftedu_server.jar
+[00:06:09] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[00:06:09] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[00:06:09] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[00:06:09] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[00:06:09] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[00:06:09] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[00:06:09] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[00:06:09] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[00:06:09] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[00:06:09] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/amedomaro/minecraftedu/servertool/server/.
+[00:06:09] [main/DEBUG] [FML/]: Discovering coremods
+[00:06:09] [main/DEBUG] [FML/]: Examining for coremod candidacy computercraftedu_1.74.jar
+[00:06:09] [main/DEBUG] [FML/]: Not found coremod data in computercraftedu_1.74.jar
+[00:06:09] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:06:09] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:06:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:06:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:06:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:06:09] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[00:06:09] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[00:06:09] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[00:06:09] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[00:06:09] [main/DEBUG] [FML/]: Injection complete
+[00:06:09] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[00:06:09] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[00:06:10] [main/DEBUG] [FML/]: Read 585 binary patches
+[00:06:11] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[00:06:11] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[00:06:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:06:11] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[00:06:11] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[00:06:11] [main/DEBUG] [FML/]: Injection complete
+[00:06:11] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[00:06:11] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[00:06:11] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[00:06:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:06:11] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[00:06:11] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[00:06:11] [main/DEBUG] [FML/]: Validating minecraft
+[00:06:11] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[00:06:11] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[00:06:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[00:06:12] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.Datahandler:iniGet:558]: java.io.FileNotFoundException: ../worlds/tmpworld/EduMapInfo.ini (Нет такого файла или каталога)
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.Datahandler:iniGet:558]: java.io.FileNotFoundException: ../worlds/tmpworld/EduMapInfo.ini (Нет такого файла или каталога)
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: students-can-teleport-to-surface=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: spawn-villagers=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: description=  to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: fire-and-tnt=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: gamemode=gamemode_edu to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: students-freezed=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: allow-other-dimensions=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: desertification=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: students-can-teleport-to-spawn=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: disable-night=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: welcome= to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: disable-ide=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: always-show-xpbar=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: motd= to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: tropification=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: students-can-fly=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: students-muted=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: pvp=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: turtles-can-build=true to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: disable-weather=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: disable-student-build=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: difficulty=difficulty_normal to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: spawn-monsters=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: stop-all-turtles=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: force-code-view=false to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: ccedu-enabled=true to file: /home/amedomaro/minecraftedu/servertool/server/../worlds/tmpworld/EduWorldSettings.ini
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:94]: Creating missing settings file: ../server/config/worldedit/worldedit.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: max-super-pickaxe-size=10 to file: /home/amedomaro/minecraftedu/servertool/server/../server/config/worldedit/worldedit.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: history-size=60 to file: /home/amedomaro/minecraftedu/servertool/server/../server/config/worldedit/worldedit.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: max-brush-radius=10 to file: /home/amedomaro/minecraftedu/servertool/server/../server/config/worldedit/worldedit.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: wand-item=280 to file: /home/amedomaro/minecraftedu/servertool/server/../server/config/worldedit/worldedit.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: nav-wand-distance=100 to file: /home/amedomaro/minecraftedu/servertool/server/../server/config/worldedit/worldedit.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: generator-settings= to file: /home/amedomaro/minecraftedu/servertool/server/server.properties
+[00:06:13] [main/INFO] [STDOUT/]: [mcedu.global.tools.AbstractSettingsHandler:loadSettings:105]: Appended setting: enable-command-block=true to file: /home/amedomaro/minecraftedu/servertool/server/server.properties
+[00:06:15] [main/WARN] [FML/]: =============================================================
+[00:06:15] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[00:06:15] [main/WARN] [FML/]: Offendor: mcedu/server/EduServerHooks.init(Lnet/minecraft/server/MinecraftServer;[Ljava/lang/String;)V
+[00:06:15] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[00:06:15] [main/WARN] [FML/]: =============================================================
+[00:06:15] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[00:06:15] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[00:06:15] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[00:06:15] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[00:06:15] [Server thread/DEBUG] [FML/]: File /home/amedomaro/minecraftedu/servertool/server/config/injectedDependencies.json not found. No dependencies injected
+[00:06:16] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[00:06:16] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[00:06:16] [Server thread/DEBUG] [FML/]: Minecraft is a file at /home/amedomaro/minecraftedu/servertool/server/minecraftedu_server.jar, loading
+[00:06:16] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[00:06:16] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:06:16] [Server thread/INFO] [FML/]: Searching /home/amedomaro/minecraftedu/servertool/server/mods for mods
+[00:06:16] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[00:06:16] [Server thread/INFO] [FML/]: Also searching /home/amedomaro/minecraftedu/servertool/server/mods/1.7.10 for mods
+[00:06:16] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file computercraftedu_1.74.jar
+[00:06:16] [Server thread/DEBUG] [FML/]: Examining file minecraftedu_server.jar for potential mods
+[00:06:16] [Server thread/TRACE] [FML/]: Located mcmod.info file in file minecraftedu_server.jar
+[00:06:16] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mcedu.forgemod.McEduForgeMod) - loading
+[00:06:16] [Server thread/TRACE] [mcedu/]: Parsed dependency info : [] [] []
+[00:06:16] [Server thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[00:06:16] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[00:06:16] [Server thread/DEBUG] [FML/]: Examining file computercraftedu_1.74.jar for potential mods
+[00:06:16] [Server thread/TRACE] [FML/]: Located mcmod.info file in file computercraftedu_1.74.jar
+[00:06:16] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (dan200.computercraft.ComputerCraft) - loading
+[00:06:16] [Server thread/TRACE] [ComputerCraft/]: Parsed dependency info : [] [] []
+[00:06:16] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (dan200.computercraftedu.ComputerCraftEdu) - loading
+[00:06:16] [Server thread/TRACE] [ComputerCraftEdu/]: Parsed dependency info : [ComputerCraft@1.74] [ComputerCraft@1.74, mcedu] []
+[00:06:16] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api (owned by ComputerCraft providing ComputerCraft|API) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api (owned by ComputerCraft providing ComputerCraft|API) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.lua (owned by ComputerCraft providing ComputerCraft|API|Lua) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.lua (owned by ComputerCraft providing ComputerCraft|API|Lua) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.peripheral (owned by ComputerCraft providing ComputerCraft|API|Peripheral) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.peripheral (owned by ComputerCraft providing ComputerCraft|API|Peripheral) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.turtle (owned by ComputerCraft providing ComputerCraft|API|Turtle) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.turtle (owned by ComputerCraft providing ComputerCraft|API|Turtle) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.filesystem (owned by ComputerCraft providing ComputerCraft|API|FileSystem) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.filesystem (owned by ComputerCraft providing ComputerCraft|API|FileSystem) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.media (owned by ComputerCraft providing ComputerCraft|API|Media) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.media (owned by ComputerCraft providing ComputerCraft|API|Media) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.permissions (owned by ComputerCraft providing ComputerCraft|API|Permissions) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.permissions (owned by ComputerCraft providing ComputerCraft|API|Permissions) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.redstone (owned by ComputerCraft providing ComputerCraft|API|Redstone) embedded in ComputerCraft
+[00:06:16] [Server thread/DEBUG] [FML/]: Found API dan200.computercraft.api.redstone (owned by ComputerCraft providing ComputerCraft|API|Redstone) embedded in ComputerCraftEdu
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Peripheral: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Lua: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Redstone: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|FileSystem: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Permissions: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Turtle: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Media: owner: ComputerCraft, dependents: [ComputerCraftEdu]
+[00:06:16] [Server thread/TRACE] [FML/]: Received a system property request ''
+[00:06:16] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[00:06:16] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[00:06:17] [Server thread/DEBUG] [FML/]: Found translations in minecraftedu_server.jar [en_US, de_DE, en_US, es_ES, fr_FR, ru_RU]
+[00:06:17] [Server thread/DEBUG] [FML/]: Found translations in minecraftedu_server.jar [en_US, de_DE, en_US, es_ES, fr_FR, ru_RU]
+[00:06:17] [Server thread/DEBUG] [mcedu/]: Enabling mod mcedu
+[00:06:17] [Server thread/DEBUG] [FML/]: Found translations in minecraftedu_server.jar [en_US, de_DE, en_US, es_ES, fr_FR, ru_RU]
+[00:06:17] [Server thread/DEBUG] [ComputerCraft/]: Enabling mod ComputerCraft
+[00:06:17] [Server thread/DEBUG] [FML/]: Found translations in computercraftedu_1.74.jar [en_US, en_US]
+[00:06:17] [Server thread/DEBUG] [ComputerCraftEdu/]: Enabling mod ComputerCraftEdu
+[00:06:17] [Server thread/DEBUG] [FML/]: Found translations in computercraftedu_1.74.jar [en_US, en_US]
+[00:06:17] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[00:06:17] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[00:06:17] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[00:06:17] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[00:06:17] [Server thread/DEBUG] [FML/]: Mod sorting data
+[00:06:17] [Server thread/DEBUG] [FML/]: 	mcedu(MinecraftEdu:1.7.10): minecraftedu_server.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft(ComputerCraft:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Peripheral(API: ComputerCraft|API|Peripheral:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Lua(API: ComputerCraft|API|Lua:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Redstone(API: ComputerCraft|API|Redstone:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|FileSystem(API: ComputerCraft|API|FileSystem:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Permissions(API: ComputerCraft|API|Permissions:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API(API: ComputerCraft|API:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Turtle(API: ComputerCraft|API|Turtle:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraft|API|Media(API: ComputerCraft|API|Media:1.74): computercraftedu_1.74.jar ()
+[00:06:17] [Server thread/DEBUG] [FML/]: 	ComputerCraftEdu(ComputerCraftEdu:1.74): computercraftedu_1.74.jar (required-after:ComputerCraft@1.74;after:mcedu)
+[00:06:17] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[00:06:17] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,002s
+[00:06:17] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[00:06:17] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[00:06:17] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[00:06:17] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[00:06:17] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, mcedu, ComputerCraft, ComputerCraftEdu] at CLIENT
+[00:06:17] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, mcedu, ComputerCraft, ComputerCraftEdu] at SERVER
+[00:06:17] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0,327s
+[00:06:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[00:06:17] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[00:06:17] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[00:06:17] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[00:06:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,009s
+[00:06:17] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLConstructionEvent to mod mcedu
+[00:06:17] [Server thread/TRACE] [FML/mcedu]: Mod mcedu is using network checker : Accepting version 1.7.10
+[00:06:17] [Server thread/TRACE] [FML/mcedu]: Testing mod mcedu to verify it accepts its own version in a remote connection
+[00:06:17] [Server thread/TRACE] [FML/mcedu]: The mod mcedu accepts its own version (1.7.10)
+[00:06:17] [Server thread/DEBUG] [FML/mcedu]: Attempting to inject @SidedProxy classes into mcedu
+[00:06:17] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLConstructionEvent to mod mcedu
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - MinecraftEdu took 0,025s
+[00:06:17] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLConstructionEvent to mod ComputerCraft
+[00:06:17] [Server thread/TRACE] [FML/ComputerCraft]: Mod ComputerCraft is using network checker : Accepting version 1.74
+[00:06:17] [Server thread/TRACE] [FML/ComputerCraft]: Testing mod ComputerCraft to verify it accepts its own version in a remote connection
+[00:06:17] [Server thread/TRACE] [FML/ComputerCraft]: The mod ComputerCraft accepts its own version (1.74)
+[00:06:17] [Server thread/DEBUG] [FML/ComputerCraft]: Attempting to inject @SidedProxy classes into ComputerCraft
+[00:06:17] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLConstructionEvent to mod ComputerCraft
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - ComputerCraft took 0,257s
+[00:06:17] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLConstructionEvent to mod ComputerCraftEdu
+[00:06:17] [Server thread/TRACE] [FML/ComputerCraftEdu]: Mod ComputerCraftEdu is using network checker : Accepting version 1.74
+[00:06:17] [Server thread/TRACE] [FML/ComputerCraftEdu]: Testing mod ComputerCraftEdu to verify it accepts its own version in a remote connection
+[00:06:17] [Server thread/TRACE] [FML/ComputerCraftEdu]: The mod ComputerCraftEdu accepts its own version (1.74)
+[00:06:17] [Server thread/DEBUG] [FML/ComputerCraftEdu]: Attempting to inject @SidedProxy classes into ComputerCraftEdu
+[00:06:17] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLConstructionEvent to mod ComputerCraftEdu
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - ComputerCraftEdu took 0,011s
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0,631s
+[00:06:17] [Server thread/DEBUG] [FML/]: Mod signature data
+[00:06:17] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[00:06:17] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[00:06:17] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[00:06:17] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	minecraftedu_server.jar
+[00:06:17] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	minecraftedu_server.jar
+[00:06:17] [Server thread/DEBUG] [FML/]: 		mcedu	(MinecraftEdu	1.7.10)	minecraftedu_server.jar
+[00:06:17] [Server thread/DEBUG] [FML/]: 		ComputerCraft	(ComputerCraft	1.74)	computercraftedu_1.74.jar
+[00:06:17] [Server thread/DEBUG] [FML/]: 		ComputerCraftEdu	(ComputerCraftEdu	1.74)	computercraftedu_1.74.jar
+[00:06:17] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[00:06:17] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[00:06:17] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[00:06:17] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[00:06:17] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[00:06:17] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,001s
+[00:06:17] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[00:06:17] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,001s
+[00:06:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[00:06:17] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[00:06:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,036s
+[00:06:17] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLPreInitializationEvent to mod mcedu
+[00:06:17] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLPreInitializationEvent to mod mcedu
+[00:06:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - MinecraftEdu took 0,088s
+[00:06:17] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLPreInitializationEvent to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLPreInitializationEvent to mod ComputerCraft
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - ComputerCraft took 0,156s
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLPreInitializationEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLPreInitializationEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - ComputerCraftEdu took 0,020s
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0,301s
+[00:06:18] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:06:18] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:06:18] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:06:18] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,000s
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,001s
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLInitializationEvent to mod mcedu
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLInitializationEvent to mod mcedu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - MinecraftEdu took 0,025s
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLInitializationEvent to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLInitializationEvent to mod ComputerCraft
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - ComputerCraft took 0,034s
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLInitializationEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLInitializationEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - ComputerCraftEdu took 0,017s
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,078s
+[00:06:18] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,006s
+[00:06:18] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
+[00:06:18] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,001s
+[00:06:18] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcedu
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sending event IMCEvent to mod mcedu
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sent event IMCEvent to mod mcedu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - MinecraftEdu took 0,001s
+[00:06:18] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event IMCEvent to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event IMCEvent to mod ComputerCraft
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ComputerCraft took 0,001s
+[00:06:18] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event IMCEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event IMCEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ComputerCraftEdu took 0,001s
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,008s
+[00:06:18] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:06:18] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,000s
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,000s
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,142s
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLPostInitializationEvent to mod mcedu
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLPostInitializationEvent to mod mcedu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - MinecraftEdu took 0,001s
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLPostInitializationEvent to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLPostInitializationEvent to mod ComputerCraft
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - ComputerCraft took 0,000s
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLPostInitializationEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLPostInitializationEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - ComputerCraftEdu took 0,000s
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,145s
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,000s
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[00:06:18] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   18: RecipeEntry("Before", UNKNOWN, )
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   17: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   16: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   15: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   14: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   12: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("computercraft:pocket_computer_upgrade", SHAPELESS, dan200.computercraft.shared.pocket.recipes.PocketComputerUpgradeRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("computercraft:printout", SHAPELESS, dan200.computercraft.shared.media.recipes.PrintoutRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("computercraft:disk", SHAPELESS, dan200.computercraft.shared.media.recipes.DiskRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("computercraft:impostor", SHAPED, dan200.computercraft.shared.util.ImpostorRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("computercraft:turtle", SHAPED, dan200.computercraft.shared.turtle.recipes.TurtleRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("computercraft:impostor_shapeless", SHAPELESS, dan200.computercraft.shared.util.ImpostorShapelessRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("computercraft:turtle_upgrade", SHAPED, dan200.computercraft.shared.turtle.recipes.TurtleUpgradeRecipe) After: minecraft:shapeless
+[00:06:18] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[00:06:18] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,006s
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLLoadCompleteEvent to mod mcedu
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLLoadCompleteEvent to mod mcedu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - MinecraftEdu took 0,000s
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLLoadCompleteEvent to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLLoadCompleteEvent to mod ComputerCraft
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - ComputerCraft took 0,000s
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLLoadCompleteEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLLoadCompleteEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - ComputerCraftEdu took 0,000s
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,008s
+[00:06:18] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[00:06:18] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[00:06:18] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[00:06:18] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[00:06:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,000s
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[00:06:18] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[00:06:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLServerAboutToStartEvent to mod mcedu
+[00:06:18] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLServerAboutToStartEvent to mod mcedu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - MinecraftEdu took 0,000s
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerAboutToStartEvent to mod ComputerCraft
+[00:06:18] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerAboutToStartEvent to mod ComputerCraft
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - ComputerCraft took 0,000s
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLServerAboutToStartEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLServerAboutToStartEvent to mod ComputerCraftEdu
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - ComputerCraftEdu took 0,000s
+[00:06:18] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,002s
+[00:06:19] [Server thread/INFO] [FML/]: Loading dimension 0 (../worlds/tmpworld) (net.minecraft.server.dedicated.DedicatedServer@552e25d9)
+[00:06:19] [Server thread/INFO] [FML/]: Loading dimension 1 (../worlds/tmpworld) (net.minecraft.server.dedicated.DedicatedServer@552e25d9)
+[00:06:19] [Server thread/INFO] [FML/]: Loading dimension -1 (../worlds/tmpworld) (net.minecraft.server.dedicated.DedicatedServer@552e25d9)
+[00:06:27] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[00:06:27] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,001s
+[00:06:27] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[00:06:27] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[00:06:27] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[00:06:27] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,003s
+[00:06:27] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLServerStartingEvent to mod mcedu
+[00:06:27] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLServerStartingEvent to mod mcedu
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - MinecraftEdu took 0,000s
+[00:06:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerStartingEvent to mod ComputerCraft
+[00:06:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerStartingEvent to mod ComputerCraft
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - ComputerCraft took 0,024s
+[00:06:27] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLServerStartingEvent to mod ComputerCraftEdu
+[00:06:27] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLServerStartingEvent to mod ComputerCraftEdu
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - ComputerCraftEdu took 0,000s
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,029s
+[00:06:27] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[00:06:27] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[00:06:27] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[00:06:27] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[00:06:27] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[00:06:27] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[00:06:27] [Server thread/TRACE] [mcedu/mcedu]: Sending event FMLServerStartedEvent to mod mcedu
+[00:06:27] [Server thread/TRACE] [mcedu/mcedu]: Sent event FMLServerStartedEvent to mod mcedu
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - MinecraftEdu took 0,000s
+[00:06:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerStartedEvent to mod ComputerCraft
+[00:06:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerStartedEvent to mod ComputerCraft
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - ComputerCraft took 0,000s
+[00:06:27] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sending event FMLServerStartedEvent to mod ComputerCraftEdu
+[00:06:27] [Server thread/TRACE] [ComputerCraftEdu/ComputerCraftEdu]: Sent event FMLServerStartedEvent to mod ComputerCraftEdu
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - ComputerCraftEdu took 0,004s
+[00:06:27] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,006s
+[00:07:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:07:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:08:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:09:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:10:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:10:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:11:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:12:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:13:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:13:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:14:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:15:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:16:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:16:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:17:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:18:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:19:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:19:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:20:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:21:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:22:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:22:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:23:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:24:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:25:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:25:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:26:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:27:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:28:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:28:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:29:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:30:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:31:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:31:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:32:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
+[00:33:13] [Server Shutdown Thread/DEBUG] [FML/]: Gathering id map for writing to world save ../worlds/tmpworld
